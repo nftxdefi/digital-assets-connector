@@ -9,7 +9,7 @@ services:
       - history-data:/data   # transaction history cache (safe to delete; it is rebuilt)
 
   cloudflared:
-    image: cloudflare/cloudflared:latest
+    image: cloudflare/cloudflared:2026.10.7   # pinned Nov 11, 2026; update on purpose (see the runbook)
     command: tunnel --no-autoupdate run
     environment:
       - TUNNEL_TOKEN=${TUNNEL_TOKEN}
