@@ -1,0 +1,10 @@
+[
+  {
+    "chain": "base",
+    "type": "erc4626",
+    "address": "0x02b12a394f0a98b80e53d85f6831041932f1b621",
+    "label": "Superform SpaceX SuperVault",
+    "asset_symbol": "SPCXc",
+    "price": "cg:spacex-coinbase-tokenized-stock"
+  }
+]

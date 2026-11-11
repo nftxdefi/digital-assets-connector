@@ -1,0 +1,8 @@
+[
+  {"symbol": "WHYPE", "name": "Wrapped HYPE", "address": "0x5555555555555555555555555555555555555555", "decimals": 18, "price": "hl:HYPE"},
+  {"symbol": "USDT0", "name": "USDT0", "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb", "decimals": 6, "price": "usd"},
+  {"symbol": "UBTC", "name": "Unit Bitcoin", "address": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463", "decimals": 8, "price": "hl:UBTC"},
+  {"symbol": "UETH", "name": "Unit Ethereum", "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907", "decimals": 18, "price": "hl:UETH"},
+  {"symbol": "USDe", "name": "Ethena USDe", "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34", "decimals": 18, "price": "cg:ethena-usde"},
+  {"symbol": "kHYPE", "name": "Kinetiq Staked HYPE", "address": "0xfD739d4e423301CE9385c1fb8850539D657C296D", "decimals": 18, "price": "hl:HYPE"}
+]

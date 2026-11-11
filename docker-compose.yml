@@ -1,0 +1,21 @@
+services:
+  digital-assets:
+    build: ./app
+    env_file: .env
+    restart: unless-stopped
+    expose:
+      - "8080"
+    volumes:
+      - history-data:/data   # transaction history cache (safe to delete; it is rebuilt)
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${TUNNEL_TOKEN}
+    restart: unless-stopped
+    depends_on:
+      - digital-assets
+
+volumes:
+  history-data:

@@ -1,0 +1,9 @@
+# Secrets: the real settings live only on the VPS and in the password manager
+.env
+*.env
+!.env.example
+# Local leftovers
+__pycache__/
+*.pyc
+backup-*/
+data/
